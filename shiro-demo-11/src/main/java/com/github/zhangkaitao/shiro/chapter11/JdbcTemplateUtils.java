@@ -20,7 +20,7 @@ public class JdbcTemplateUtils {
     }
 
     private static JdbcTemplate createJdbcTemplate() {
-
+    	System.out.println("出错了");
         DruidDataSource ds = new DruidDataSource();
         ds.setDriverClassName("com.mysql.jdbc.Driver");
         ds.setUrl("jdbc:mysql://localhost:3306/shiro");
